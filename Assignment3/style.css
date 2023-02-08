@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url("images/download.jpg"); 
+    background-size: 900px ; 
+    background-position: -400 px 0px;
+
+}
+
+h2{
+    text-align: center ;
+    padding: 20px;
+    font-family: sans-serif;
+}
+form#register{
+    margin:40px;
+    text-align: center;
+}
+label{
+    font-family: sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+
+}
+input#name{
+    width:300px ;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    padding: 7px;
+    background-color:#fff ;
+    box-shadow: inset 1px 1px 5px rgba(red, green, blue, alpha);
+    text-align: center;
+
+}
+input#submit{
+    width:200px;
+    padding:7px;
+    font-size:16px ;
+    font-family: sans-serif;
+    font-weight: 600;
+    border:none;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color:#fff;
+    cursor:pointer;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom:20px;
+}
+input#button{
+    width:200px;
+    padding:7px;
+    font-size:16px ;
+    font-family: sans-serif;
+    font-weight: 600;
+    border:none;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+    color:#fff;
+    cursor:pointer;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom:20px ;
+
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+ /* .switch{
+    position:relative;
+    width:200px;
+    height:100px; 
+
+
+}
+input#toggle{
+    opacity:0;
+
+}
+.slider{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border:2px solid #000;
+    border-radius:50px;
+    transition:.5s;
+
+}
+.slider:before{
+    content:'';
+    position:absolute;
+    width:75px;
+    height:75px;
+    background:#000;
+    border-radius:50%;
+    top:11px;
+    left: 11px;
+    transition: .5s;
+}
+input:checked~.slider::before{
+    background:#fff;
+    transform:translateX(100px);
+
+} */
