@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="./style1.css" />
+    <script>
+        
+        function validate(){
+            var username=document.getElementById("username");
+            var password=document.getElementById("password");
+            if(username==""){
+                alert("username cannot be blank");
+                // username.style.border='3px solid red';
+                // document.getElementById("error-label").innerHTML="username cannot be blank";
+                 return false;
+             }
+             if(password==""){
+                alert("password cannot be blank");
+             }
+
+        }
+    </script>
+  </head>
+  <body>
+    <div class="login-form">
+      <h1>Login Form</h1>
+      <form action="#" action="post" >
+        <labelid="error-label"></label>
+        <p>User name:</p>
+        <input type="text" name="username" id="username" placeholder="User name" />
+        <p>Password</p>
+        <input type="password" name="password" id="password" placeholder="Password" />
+        <a href="./registration.html">Create an account</a>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <form>
+  </body>
+</html>
